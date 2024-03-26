@@ -37,6 +37,18 @@ th {
 .break1 {
     background-color: #f9f3f3;
 }
+/* افتراضي: أنماط CSS الخاصة بالأجهزة الكمبيوتر الشخصي */
+
+/* Media Queries للهواتف المحمولة */
+@media only screen and (max-width: 600px) {
+    /* أنماط CSS الخاصة بالهواتف المحمولة */
+    body {
+        font-size: 14px;
+    }
+
+    /* تحديد استايلات أخرى للأجهزة المحمولة */
+}
+
 
 .break2 {
     background-color: #e6f1e7;
