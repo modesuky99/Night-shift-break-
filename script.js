@@ -58,10 +58,11 @@ function generateRandomBreakTime1() {
 }
 
 function generateRandomBreakTime2() {
-    var hour = 4 + Math.floor(Math.random() * 2); // Random hour between 4 and 5
+    var hour = 4 + Math.floor(Math.random() * 3); // Random hour between 4 and 6
     var minute = Math.floor(Math.random() * 4) * 15;
     return '<span class="break2">' + hour.toString().padStart(2, "0") + ':' + minute.toString().padStart(2, "0") + '</span>';
 }
+
 
 function resetSchedule() {
     employees = [];
