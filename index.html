@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Shift Break</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Night Shift Break </h1>
+        <div id="employee-form">
+            <input type="text" id="employee-name" placeholder="Employee Name">
+            <button onclick="addEmployee()">Add Employee</button>
+        </div>
+        <button onclick="generateSchedule()">Generate Schedule</button>
+        <button onclick="downloadSchedule()">Download Schedule</button>
+        <button onclick="resetSchedule()">Reset Schedule</button>
+        <div id="schedule"></div>
+        <footer>
+            <p>© 2024 Elm3mly</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
